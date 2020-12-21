@@ -59,6 +59,7 @@ nav img {
     border: none;
     display: block;
     text-align: center;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
 }
 
 .btn:hover {
