@@ -6,7 +6,7 @@ body {
     margin: 0;
     background-image: url(../images/bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 1200px;
     background-color: hsl(257, 40%, 49%);
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
@@ -25,7 +25,7 @@ a {
 
 .container {
     max-width: 1930px;
-    padding: 4% 8% 0;
+    padding: 3% 5% 0;
      
 }
 nav img {
@@ -33,7 +33,7 @@ nav img {
 }
 .main {
     padding: 0;
-    margin-top: 5%;
+    margin-top: 4%;
     display: flex;
 
 }
@@ -42,13 +42,11 @@ nav img {
     width: 100%;
   
 }
-.lr img {
-    width: 100%;
-}
+
 #right {
     width: 100%;
     position: relative;
-    padding: 2% 5% 0;
+    padding: 2% 3% 0;
 }
 
 .btn {
@@ -104,10 +102,10 @@ nav img {
 /*media Queries */
 @media (min-width: 1200px) {
     #right {
-        flex: 4.5;
+        flex: 5;
     }
     #left {
-        flex: 5.5;
+        flex: 5;
     }
 }
 @media screen and (max-width: 991px)  {
