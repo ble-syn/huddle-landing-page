@@ -6,7 +6,7 @@ body {
     margin: 0;
     background-image: url(../images/bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 1200px;
+    background-size: cover;
     background-color: hsl(257, 40%, 49%);
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
@@ -78,13 +78,13 @@ nav img {
     border-radius: 50%;
     cursor: pointer;
     display: inline-block;
-    width: 37px;
-    height: 37px;
+    width: 35px;
+    height: 35px;
     text-align: center;
     position: relative;
     left: 68%;
     color: #fff;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 2em;
     border-radius: 50%;
     -moz-border-radius:50%;
